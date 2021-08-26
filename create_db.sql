@@ -5,7 +5,7 @@ USE `testdb`;
 SET NAMES utf8;
 SET character_set_client = utf8mb4;
 
-CREATE TABLE `students`(
+CREATE TABLE `STUDENTS`(
 `ID` int NOT NULL,
 `Name` varchar(10) NOT NULL,
 `Marks` int
