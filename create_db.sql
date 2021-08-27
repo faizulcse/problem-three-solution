@@ -11,7 +11,8 @@ CREATE TABLE `STUDENTS`(
 `Marks` int
 );
 
-INSERT INTO `STUDENTS` VALUES (1, 'Ashley', 81);
-INSERT INTO `STUDENTS` VALUES (2, 'Samantha', 75);
-INSERT INTO `STUDENTS` VALUES (4, 'Julia', 76);
-INSERT INTO `STUDENTS` VALUES (3, 'Belvet', 81);
+INSERT INTO `STUDENTS` (ID, Name, Marks)
+VALUES (1, 'Ashley', 81),
+		(2, 'Samantha', 75),
+		(4, 'Julia', 76),
+		(3, 'Belvet', 81);
