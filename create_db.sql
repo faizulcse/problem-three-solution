@@ -2,9 +2,6 @@ DROP DATABASE IF EXISTS `testdb`;
 CREATE DATABASE `testdb`;
 USE `testdb`;
 
-SET NAMES utf8;
-SET character_set_client = utf8mb4;
-
 CREATE TABLE `STUDENTS`(
 `ID` int NOT NULL,
 `Name` varchar(10) NOT NULL,
